@@ -1,4 +1,5 @@
 # Interfacing 16x2 LCD with 8051 Microcontroller in Proteus
+![Simulation Output](https://github.com/user-attachments/assets/a0aab787-acd2-40f0-b163-2f36f20963f2)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -109,8 +110,6 @@ POWER_UP_DELAY ; ~20ms delay
 |                |
 ------------------
 ```
-![Simulation Output](https://github.com/user-attachments/assets/a0aab787-acd2-40f0-b163-2f36f20963f2)
-
 ---
 
 ## Challenges & Solutions <a name="challenges--solutions"></a>
@@ -142,4 +141,4 @@ Successfully demonstrated LCD interfacing with 8051 microcontroller. This implem
 1. HD44780 LCD Controller Datasheet
 2. 8051 Microcontroller Architecture Manual
 3. Proteus Virtual System Modeling Guide
-4. Muhammad Ali Mazidi - "The 8051 Microcontroller and Embedded Systems"
+4. 8051 and MSP430 Microcontrollers - K. Uma Rao and Andhe Pallavi

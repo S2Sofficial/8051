@@ -11,12 +11,12 @@ This repository treats the 8051 not as a legacy MCU, but as a **transparent mach
 
 ---
 
-## 🧠 8051 Simulator — Core of This Repository
+##  8051 Simulator — Core of This Repository
 
 This repository is tightly integrated with a **web-based 8051 Assembly Language Simulator**, built to execute, debug, and analyze programs written for the Intel 8051 architecture.
 
 🔗 **Live Simulator**  
-https://8051sim.vercel.app  
+[https://8051sim.vercel.app](https://8051sim.vercel.app)
 
 ### What the Simulator Enables
 - Write and execute 8051 assembly code directly in the browser
@@ -285,7 +285,7 @@ It is the **primary execution and verification environment** for this repository
 
 ## ▶️ Start Executing
 
-- Execute programs instantly: https://8051sim.vercel.app  
+- Execute programs instantly: [https://8051sim.vercel.app](https://8051sim.vercel.app)  
 - Use this repository as the reference implementation set  
 - Treat the simulator as the ground truth for instruction behavior  
 

@@ -8,6 +8,7 @@ This repository treats the 8051 not as a legacy MCU, but as a **transparent mach
 [![GitHub last commit](https://img.shields.io/github/last-commit/s2sofficial/8051)](https://github.com/s2sofficial/8051)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![GitHub stars](https://img.shields.io/github/stars/s2sofficial/8051?style=social)
+[![Follow @s2sofficial](https://img.shields.io/badge/Follow-@s2sofficial-24292e?style=social&logo=github)](https://github.com/s2sofficial)
 
 ---
 
@@ -18,36 +19,38 @@ This repository is tightly integrated with a **web-based 8051 Assembly Language 
 🔗 **Live Simulator**  
 [https://8051sim.vercel.app](https://8051sim.vercel.app)
 
-[<img width="50%" height="1011" alt="image" src="https://github.com/user-attachments/assets/bb99da8e-194b-4d0f-9566-5db76d345227"/>](https://8051sim.vercel.app)
+  
+ <table>
+  <tr>
+    <td align="center">
+      <img src="assets\8051sim_demo_internalRAM.gif" width="220">
+    </td>
+    <td align="center">
+      <img src="assets\8051sim_demo_open.gif" width="220">
+    </td>
+    <td align="center">
+      <img src="assets\8051sim_demo_Snippets.gif" width="220">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets\8051Sim_Demo.gif" width="220">
+    </td>
+    <td align="center">
+      <img src="assets\8051sim_demo_gpio.gif" width="220">
+    </td>
+    <td align="center">
+      <img src="assets\8051sim_demo_snippetdark.gif" width="220">
+    </td>
+  </tr>
+</table>
+
 
 ### What the Simulator Enables
-- Write and execute 8051 assembly code directly in the browser
 - Step-by-step execution with register, flag, and memory visibility
 - Observe PSW, carry, overflow, and parity behavior in real time
 - Validate timing-sensitive logic before hardware deployment
 - Learn instruction-level effects without relying on physical kits
-
-### How This Repository Uses the Simulator
-- Every checklist item is intended to be:
-  - Implemented in pure 8051 assembly
-  - Tested inside the simulator
-  - Verified for flags, memory, and control-flow behavior
-- Projects follow a **simulator-first, hardware-second** discipline
-
-This simulator is not a demo tool.  
-It is the **primary execution and verification environment** for this repository.
-
----
-
-## 📌 Repository Structure & Usage
-
-- Each phase and level represents a **self-contained assembly project**
-- No external libraries, HALs, or abstraction layers
-- Every program is:
-  - Deterministic
-  - Flag-aware
-  - Cycle-accounted
-- The checklist doubles as an execution roadmap
 
 ---
 
@@ -285,7 +288,7 @@ It is the **primary execution and verification environment** for this repository
 
 ---
 
-## ▶️ Start Executing
+## ▶️ Start Experimenting
 
 - Execute programs instantly: [https://8051sim.vercel.app](https://8051sim.vercel.app)  
 - Use this repository as the reference implementation set  
